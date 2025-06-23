@@ -9,7 +9,6 @@
   ],
   "author": "",
   "license": "MIT",
-  "packageManager": "yarn@4.6.0",
   "dependencies": {
     "prettier": "^3.4.2"
   },
