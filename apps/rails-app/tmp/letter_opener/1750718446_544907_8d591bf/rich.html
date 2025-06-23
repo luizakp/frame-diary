@@ -1,0 +1,133 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+      <title>Reset your password</title>
+    
+
+    <style type="text/css">
+      #container {
+        margin: 10px auto;
+      }
+      #message_headers {
+        background: #fff;
+        font-size: 12px;
+        font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+        border-bottom: 1px solid #dedede;
+        margin-bottom: 10px;
+        overflow: auto;
+      }
+
+      #message_headers dl {
+        float: left;
+        line-height: 1.3em;
+        padding: 0;
+      }
+
+      #message_headers dt {
+        width: 92px;
+        margin: 0;
+        float: left;
+        text-align: right;
+        font-weight: bold;
+        color: #7f7f7f;
+      }
+
+      #message_headers dd {
+        margin: 0 0 0 102px;
+      }
+
+      #message_headers p.alternate {
+        float: right;
+        margin: 0;
+      }
+
+      #message_headers p.alternate a {
+        color: #09c;
+      }
+
+      pre#message_body {
+        padding: 4px;
+        white-space: pre-wrap;
+        border: 1px solid #eee;
+        background-color: #fcfcfc;
+      }
+
+      iframe {
+        border: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="message_headers">
+        <dl>
+          <dt>From:</dt>
+          <dd>from@example.com</dd>
+
+          
+
+          
+
+          
+            <dt>Subject:</dt>
+            <dd><strong>Reset your password</strong></dd>
+          
+
+          <dt>Date:</dt>
+          <dd>Jun 23, 2025 07:40:46 PM -03</dd>
+
+          
+            <dt>To:</dt>
+            <dd>luiza@bleu.studio</dd>
+          
+
+          
+
+          
+
+          
+        </dl>
+
+        
+      </div>
+
+      
+        <iframe seamless="seamless" srcdoc="<base target='_top'>&lt;!-- BEGIN app/views/layouts/mailer.html.erb --&gt;&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;
+    &lt;style&gt;
+      /* Email styles need to be inline */
+    &lt;/style&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+    &lt;!-- BEGIN app/views/user_mailer/password_reset.html.erb --&gt;&lt;p&gt;Hey there,&lt;/p&gt;
+
+&lt;p&gt;Can&#39;t remember your password for &lt;strong&gt;luiza@bleu.studio&lt;/strong&gt;? That&#39;s OK, it happens. Just hit the link below to set a new one.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://localhost:3000/identity/password_reset/edit?sid=eyJfcmFpbHMiOnsiZGF0YSI6MSwiZXhwIjoiMjAyNS0wNi0yM1QyMzowMDo0Ni41NDFaIiwicHVyIjoicGFzc3dvcmRfcmVzZXRfdG9rZW4ifX0--60d1990da4a304a9a999cd20156adcc204228eb11d99f7620343f722cae60db5&quot;&gt;Reset my password&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you did not request a password reset you can safely ignore this email, it expires in 20 minutes. Only someone with access to this email account can reset your password.&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Have questions or need help? Just reply to this email and our support team will help you sort it out.&lt;/p&gt;
+&lt;!-- END app/views/user_mailer/password_reset.html.erb --&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+&lt;!-- END app/views/layouts/mailer.html.erb --&gt;"></iframe>
+      
+    </div>
+
+    <script type="text/javascript">
+      /*! srcdoc-polyfill - v0.1.1 - 2013-03-01
+      * http://github.com/jugglinmike/srcdoc-polyfill/
+      * Copyright (c) 2013 Mike Pennisi; Licensed MIT */
+      (function(t,e){var c,n,o=t.srcDoc,r=!!("srcdoc"in e.createElement("iframe")),i={compliant:function(t,e){e&&t.setAttribute("srcdoc",e)},legacy:function(t,e){var c;t&&t.getAttribute&&(e?t.setAttribute("srcdoc",e):e=t.getAttribute("srcdoc"),e&&(c="javascript: window.frameElement.getAttribute('srcdoc');",t.setAttribute("src",c),t.contentWindow&&(t.contentWindow.location=c)))}},s=t.srcDoc={set:i.compliant,noConflict:function(){return t.srcDoc=o,s}};if(!r)for(s.set=i.legacy,n=e.getElementsByTagName("iframe"),c=n.length;c--;)s.set(n[c])})(this,this.document);
+    </script>
+  </body>
+</html>
